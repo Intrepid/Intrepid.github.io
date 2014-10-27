@@ -81,7 +81,7 @@ More information in the [Libfabric Runtime](/libfabric/index.html).
 Once you have a chance to try it, consider getting involved in the Clang UPC
 community.  <a href="mailto:info@intrepid.com">Drop us a message</a> with your ideas and observations.
 
-##### Other UPC projects
+#### Other UPC projects
 
 * [UPC Language](http://upc-lang.org)
 
