@@ -46,12 +46,19 @@ More info: [Clang UPC2C webpage](/clang-upc2c/)
 
 #### LLVM IR Remote Access
 
+The goal of this project is to allow UPC
+pointers-to-shared (or some other remote pointer) to be expressed in the LLVM
+IR and to in turn gain the benefits of LLVM optimizations that operate on
+memory references.
+
+More information on the [UPC IR Project](/clang-upc-ir/)
+
 - - -
 
 #### Portals 4 Runtime
 
-The Clang UPC for Portals 4.0 (Portals4, Portals) is an implementation          
-of Clang UPC that uses Portals interface for message passing between            
+The Clang UPC for Portals 4.0 (Portals4, Portals) is an implementation
+of Clang UPC that uses Portals interface for message passing between
 UPC threads running on separate nodes in a system area network.
 
 More information on the [Portals4 Runtime](/portals4/index.html).

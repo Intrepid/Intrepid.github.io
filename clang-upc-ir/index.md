@@ -32,7 +32,7 @@ More information on the approach and some of the alternatives can be found
 in the short [design document](/clang-upc-ir/doc/clang-upc-ir.html).  Note
 that this document might change.
 
-### Configure for UPC IR Support
+### Getting Clang UPC with UPC IR Support
 
 #### Source Code on _upc-ir_ branch
 
