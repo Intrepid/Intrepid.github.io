@@ -12,16 +12,14 @@ Clang UPC is know to work on the following platforms
 (with LInux/x86_64 being the main development and
 test platform):
 
-<table>
-<tr><th><strong>OS</strong></th><th><strong>Architecture</strong></th></tr>
-<tr><td>Linux    </td><td> x86_64/amd64 </td></tr>
-<tr><td>Linux    </td><td> x86          </td></tr>
-<tr><td>Linux    </td><td> PowerPC      </td></tr>
-<tr><td>FreeBSD  </td><td> x86_64       </td></tr>
-<tr><td>Mac OS X </td><td> x86_64       </td></tr>
-</table><br />
+**OS**|**Architecture**
+Linux    | x86_64/amd64 |
+Linux    | x86          |
+Linux    | PowerPC      |
+FreeBSD  | x86_64       |
+Mac OS X | x86_64       |
 
-
+<br/>
 Building Clang UPC requires [CMake](http://www.cmake.org/)
 or [GNU Autoconf](https://www.gnu.org/software/autoconf/)
 tools (configure).  Please see the [LLVM

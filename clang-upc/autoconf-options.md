@@ -9,7 +9,7 @@ Calng UPC can also be configured by using the GNU autoconf tools (configure).
 In most of the cases there is no difference between _cmake_ configuration and
 autoconf, except in the following areas:
 
-* While _cmake_ configuration is capable of configuraing and building multiple
+* While _cmake_ configuration is capable of configuring and building multiple
   instances of the runtime, _autoconf_ is building only one of them, as
   specified by the configuration options.
 

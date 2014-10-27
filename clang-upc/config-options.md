@@ -11,7 +11,7 @@ to better suite the user.  As mentioned before, _cmake_ (preferred fo Clang
 UPC) or _configure_ is used for this purpose.  Beside the regular [Clang/LLVM
 configuration options[(http://llvm.org/docs/CMake.html#llvm-specific-variables),
 Clang UPC provides some additional options that can be used to configure
-UPC lanaguage as well as the selected runtime.
+UPC language as well as the selected runtime.
 
 ### 1.1 General Options
 
@@ -128,7 +128,8 @@ The following options control the UPC compiler generated code.
 
 * __-DLIBUPC_BACKTRACE_SIGNAL__:=_signal_
 
-  Specify signal name used of backtrace on user's request.  Defauls to _SIGUSR1_.
+  Specify signal name used of backtrace on user's request.
+  Defauls to _SIGUSR1_.
 
 ### 1.5 Runtime Options
 
