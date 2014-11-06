@@ -25,8 +25,10 @@ order to build libfabric support:
 * Add the location of the Libfabric library to the LD_LIBRARY_PATH
 environment variable. For example,
 
-   LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/gupc-p4/lib"
-   export LD_LIBRARY_PATH
+<pre>
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/libfabric/lib"
+export LD_LIBRARY_PATH
+</pre>
 
 ### Getting Clang UPC with Libfabric runtime support
 
@@ -38,8 +40,10 @@ this steps to build Clang UPC with the libfabric support:
 
 * Checkout the _libfabric_ branch
 
-    cd llvm; git checkout libfabric
-    cd llvm/tools/clang; git checkout libfabric
+<pre>
+cd llvm; git checkout libfabric
+cd llvm/tools/clang; git checkout libfabric
+</pre>
 
 * Follow the instructions on 
 [configuring the Clang UPC](/clang-upc/config-options.html).
