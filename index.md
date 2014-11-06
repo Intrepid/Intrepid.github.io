@@ -93,7 +93,7 @@ community.  <a href="mailto:info@intrepid.com">Drop us a message</a> with your i
 
 * [GNU UPC](http://www.gccupc.org)
 
-  UPC compiler based on the GNU GCC.  Almost all of the GNU UPC features
+  UPC compiler based on the GNU GCC.  All the GNU UPC features
   are also available in Clang UPC.
 
 * [Berkeley UPC](http://upc.lbl.gov/)
