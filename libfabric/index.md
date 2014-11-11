@@ -36,7 +36,7 @@ Libfabric development is currently on the branch _libfabric_.  Follow the
 this steps to build Clang UPC with the libfabric support:
 
 * Follow the instructions on getting the
-[Clang UPC sources](/clang-upc/install.hmtl).
+[Clang UPC sources](/clang-upc/install.html).
 
 * Checkout the _libfabric_ branch
 
