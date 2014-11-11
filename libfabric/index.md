@@ -38,10 +38,9 @@ this steps to build Clang UPC with the libfabric support:
 * Follow the instructions on getting the
 [Clang UPC sources](/clang-upc/install.html).
 
-* Checkout the _libfabric_ branch
+* Checkout the _libfabric_ branch of clang-upc
 
 <pre>
-cd llvm; git checkout libfabric
 cd llvm/tools/clang; git checkout libfabric
 </pre>
 
