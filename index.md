@@ -65,7 +65,6 @@ More information on the [Portals4 Runtime](/portals4/index.html).
 
 - - -
 
-
 #### Libfabric Runtime
 
 Clang UPC Libfabric Runtime is an implementation of Clang UPC that uses
