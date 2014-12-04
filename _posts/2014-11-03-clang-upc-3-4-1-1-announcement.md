@@ -10,7 +10,7 @@ that extends the capability of the Clang/LLVM compiler and tool set.
 For further information on the UPC language and this implementation consult
 [http://intrepid.github.io](http://intrepid.github.io).
 
-This release is based on the Clang/LLVM 3.4 and provides the following
+This release is based on Clang/LLVM 3.4 and provides the following
 components:
 
 * __Clang UPC__<br />
@@ -40,9 +40,9 @@ Clang UPC provides two runtime environments:
 * Portals4<br />Infiniband networking with Portals 4.0 reference
 library support
 
-The SMP runtime is the default configuration.  To use Portals4 runtime please
-use the _-DLIBUPC_RUNTIME_MODEL:=[smp\|portals4]_ option when configuring with
-cmake.
+The SMP runtime is the default configuration.  To use the Portals4 runtime
+please use the _-DLIBUPC_RUNTIME_MODEL:=[smp\|portals4]_ option when
+configuring with cmake.
 
 More information on the Portals4 based runtime can be found on its
 [project web page](http://intrepid.github.io/portals4).
@@ -50,10 +50,9 @@ More information on the Portals4 based runtime can be found on its
 Downloads
 ---------
 
-The following three components of the Clang UPC are available for download:
-llvm-upc, clang-upc, and upc2c in the source code format at
+The following three source code components of Clang UPC are available
+for download: llvm-upc, clang-upc, and upc2c at
 [GitHub download page](http://intrepid.github.io/download.html).
 
 For convenience a tarball release of all three components is also provided.
-
 
